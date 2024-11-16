@@ -7,7 +7,7 @@ describe('EnvConfigService unit tests', () => {
 
   beforeEach(async () => {
     // Defina NODE_ENV como 'test' para garantir que o arquivo .env.test será carregado
-    process.env.NODE_ENV = 'test';
+    // process.env.NODE_ENV = 'test';
 
     const module: TestingModule = await Test.createTestingModule({
       imports: [EnvConfigModule], // Importando o EnvConfigModule
